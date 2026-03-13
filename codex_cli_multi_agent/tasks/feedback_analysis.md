@@ -49,8 +49,8 @@
 ## 출력
 
 - **산출물**: Feedback Report + Improvement Proposals
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
-- **제안 형식**: `ai_prompts/roles/growth_feedback_agent.md`의 Improvement Proposal 형식
+- **형식**: `validation/output_contract.md` 준수
+- **제안 형식**: `roles/growth_feedback_agent.md`의 Improvement Proposal 형식
 
 ## 수락 기준
 
@@ -61,5 +61,5 @@
 
 ## 참조
 
-- Growth Feedback Agent: `ai_prompts/roles/growth_feedback_agent.md`
-- Output Contract: `ai_prompts/validation/output_contract.md`
+- Growth Feedback Agent: `roles/growth_feedback_agent.md`
+- Output Contract: `validation/output_contract.md`

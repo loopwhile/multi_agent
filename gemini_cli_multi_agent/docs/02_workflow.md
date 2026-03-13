@@ -3,7 +3,7 @@
 ## 이 문서의 목적
 
 Agent OS의 **표준 운영 워크플로우**를 설명한다.  
-실행 세부사항은 `ai_prompts/workflows/`에 있으며, 이 문서는 전체 흐름의 개요와 설계 근거를 다룬다.
+실행 세부사항은 `workflows/`에 있으며, 이 문서는 전체 흐름의 개요와 설계 근거를 다룬다.
 
 ---
 
@@ -24,10 +24,10 @@ Agent OS의 **표준 운영 워크플로우**를 설명한다.
 ```
 
 **규칙:**
-- 모든 상태 전이는 `ai_prompts/workflows/work_order_lifecycle.md`의 규칙을 따른다
+- 모든 상태 전이는 `workflows/work_order_lifecycle.md`의 규칙을 따른다
 - VERIFY를 거치지 않는 CLOSE는 존재하지 않는다
 
-**상세**: `ai_prompts/workflows/work_order_lifecycle.md`
+**상세**: `workflows/work_order_lifecycle.md`
 
 ---
 
@@ -42,7 +42,7 @@ Agent OS의 **표준 운영 워크플로우**를 설명한다.
 | Quality Checklist 통과 | 유형별 체크리스트 항목 충족 |
 | 수락 기준 충족 | Work Order에 명시된 Acceptance Criteria |
 
-**상세**: `ai_prompts/workflows/verification_gate.md`
+**상세**: `workflows/verification_gate.md`
 
 ---
 
@@ -61,7 +61,7 @@ L1: 당사자 간 직접 해결 (근거 교환)
 - another_me의 L2 판정은 최종. 같은 건으로 재에스컬레이션 금지
 - L3은 전략적 방향 판단에만 사용
 
-**상세**: `ai_prompts/workflows/escalation_protocol.md`
+**상세**: `workflows/escalation_protocol.md`
 
 ---
 
@@ -69,7 +69,7 @@ L1: 당사자 간 직접 해결 (근거 교환)
 
 새 워크플로우를 추가할 때 다음 원칙을 따른다:
 
-1. **공용 코어에서만 정의** — `ai_prompts/workflows/`에 작성
+1. **공용 코어에서만 정의** — `workflows/`에 작성
 2. **adapter에 복제하지 않음** — 도구별 실행 차이만 adapter에 기술
 3. **기존 워크플로우와 충돌 검사** — 상태 전이 규칙, 역할 책임과 충돌이 없는지 확인
 4. **검증 게이트 연동** — 새 워크플로우도 Verify 원칙을 준수해야 함
@@ -78,9 +78,9 @@ L1: 당사자 간 직접 해결 (근거 교환)
 
 ## 참조 파일
 
-- `ai_prompts/workflows/work_order_lifecycle.md`
-- `ai_prompts/workflows/verification_gate.md`
-- `ai_prompts/workflows/escalation_protocol.md`
+- `workflows/work_order_lifecycle.md`
+- `workflows/verification_gate.md`
+- `workflows/escalation_protocol.md`
 
 ---
 

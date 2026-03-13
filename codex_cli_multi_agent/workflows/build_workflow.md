@@ -50,12 +50,12 @@
 
 ## 참조
 
-- Task: `ai_prompts/tasks/architecture_design.md`
-- Task: `ai_prompts/tasks/implementation_plan.md`
-- Task: `ai_prompts/tasks/verification_plan.md`
-- Review: `ai_prompts/reviews/architecture_review.md`
-- Review: `ai_prompts/reviews/implementation_review.md`
-- Meeting: `ai_prompts/meetings/design_review_meeting.md`
-- Meeting: `ai_prompts/meetings/build_sync_meeting.md`
-- Handoff: `ai_prompts/validation/handoff_checklist.md`
-- Decision Gates DG2, DG3: `ai_prompts/validation/decision_gate.md`
+- Task: `tasks/architecture_design.md`
+- Task: `tasks/implementation_plan.md`
+- Task: `tasks/verification_plan.md`
+- Review: `reviews/architecture_review.md`
+- Review: `reviews/implementation_review.md`
+- Meeting: `meetings/design_review_meeting.md`
+- Meeting: `meetings/build_sync_meeting.md`
+- Handoff: `validation/handoff_checklist.md`
+- Decision Gates DG2, DG3: `validation/decision_gate.md`

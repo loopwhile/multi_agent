@@ -11,7 +11,7 @@
 
 1. **요구사항 정리** — 사용자 요청, 피드백, 시장 데이터를 구조화된 요구사항으로 변환
 2. **스코프 정의** — must-have와 nice-to-have를 분리하고, 기능 경계를 명확히 설정
-3. **Work Order 생성** — 요구사항을 실행 가능한 Work Order로 변환 (`ai_prompts/tasks/_template.md` 사용)
+3. **Work Order 생성** — 요구사항을 실행 가능한 Work Order로 변환 (`tasks/_template.md` 사용)
 4. **스코프 변경 관리** — 범위 변경 요청을 평가하고, 수용/거부 판단 + 근거 제시
 5. **우선순위 판정** — 기능 간 우선순위를 결정하고 순서를 제안
 
@@ -39,7 +39,7 @@
 
 ## 출력
 
-모든 출력은 `ai_prompts/validation/output_contract.md`를 준수한다.
+모든 출력은 `validation/output_contract.md`를 준수한다.
 
 ### 주요 산출물
 
@@ -74,16 +74,16 @@
 
 - **생성**: CREATED 상태의 Work Order를 작성
 - **폐쇄**: VERIFIED 또는 DEPLOYED 상태의 Work Order를 CLOSED로 전이하는 최종 확인
-- 상세: `ai_prompts/workflows/work_order_lifecycle.md` 참조
+- 상세: `workflows/work_order_lifecycle.md` 참조
 
 ---
 
 ## 참조 문서
 
-- 출력 계약: `ai_prompts/validation/output_contract.md`
-- Work Order 템플릿: `ai_prompts/tasks/_template.md`
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
-- 에스컬레이션: `ai_prompts/workflows/escalation_protocol.md`
+- 출력 계약: `validation/output_contract.md`
+- Work Order 템플릿: `tasks/_template.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- 에스컬레이션: `workflows/escalation_protocol.md`
 
 ---
 

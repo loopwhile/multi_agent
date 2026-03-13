@@ -50,7 +50,7 @@
 ## 출력
 
 - **산출물**: Project Packet (`docs/project_packets/{프로젝트명}.md`)
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
+- **형식**: `validation/output_contract.md` 준수
 
 ## 수락 기준
 
@@ -62,4 +62,4 @@
 ## 참조
 
 - Project Packet 템플릿: `docs/project_packets/_template.md`
-- Output Contract: `ai_prompts/validation/output_contract.md`
+- Output Contract: `validation/output_contract.md`

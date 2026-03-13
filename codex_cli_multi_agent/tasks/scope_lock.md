@@ -44,14 +44,14 @@
 
 ### 4. Work Order 초안 생성
 
-- [ ] `ai_prompts/tasks/_template.md` 기반으로 Work Order 작성
+- [ ] `tasks/_template.md` 기반으로 Work Order 작성
 - [ ] 수락 기준 (Acceptance Criteria) 작성
 - [ ] 우선순위 배정
 
 ## 출력
 
 - **산출물**: Scope Document + Work Order 초안
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
+- **형식**: `validation/output_contract.md` 준수
 
 ## 수락 기준
 
@@ -62,5 +62,5 @@
 
 ## 참조
 
-- Work Order 템플릿: `ai_prompts/tasks/_template.md`
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
+- Work Order 템플릿: `tasks/_template.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`

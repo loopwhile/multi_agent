@@ -46,7 +46,7 @@
 ## 출력
 
 - **산출물**: Implementation Plan + 태스크 분해 목록
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
+- **형식**: `validation/output_contract.md` 준수
 
 ## 수락 기준
 
@@ -57,5 +57,5 @@
 
 ## 참조
 
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
-- Quality Checklist: `ai_prompts/validation/quality_checklist.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- Quality Checklist: `validation/quality_checklist.md`

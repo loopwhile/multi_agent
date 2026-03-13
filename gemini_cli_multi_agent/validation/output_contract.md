@@ -9,8 +9,8 @@
 
 ## 적용 범위
 
-- `ai_prompts/roles/`에 정의된 모든 에이전트
-- `ai_prompts/tasks/`에 생성되는 모든 Work Order의 결과물
+- `roles/`에 정의된 모든 에이전트
+- `tasks/`에 생성되는 모든 Work Order의 결과물
 - 모든 AI 실행 도구 (Antigravity, Codex, Gemini CLI 등)
 
 ---

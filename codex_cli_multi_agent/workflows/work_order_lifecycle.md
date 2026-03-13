@@ -62,8 +62,8 @@ CREATED → DESIGNED → IN-PROGRESS → PENDING-VERIFY → VERIFIED → DEPLOYE
 
 ## Work Order 참조
 
-- Work Order 인스턴스는 `ai_prompts/tasks/`에 생성
-- 템플릿: `ai_prompts/tasks/_template.md`
+- Work Order 인스턴스는 `tasks/`에 생성
+- 템플릿: `tasks/_template.md`
 - 파일명 형식: `WO-YYYYMMDD-{순번}-{짧은설명}.md`
   - 예: `WO-20260312-001-login-api.md`
 
@@ -71,15 +71,15 @@ CREATED → DESIGNED → IN-PROGRESS → PENDING-VERIFY → VERIFIED → DEPLOYE
 
 ## 검증 게이트 연동
 
-- 상세 검증 기준은 `ai_prompts/workflows/verification_gate.md` 참조
-- 품질 체크리스트는 `ai_prompts/validation/quality_checklist.md` 참조
-- 출력 형식은 `ai_prompts/validation/output_contract.md` 준수
+- 상세 검증 기준은 `workflows/verification_gate.md` 참조
+- 품질 체크리스트는 `validation/quality_checklist.md` 참조
+- 출력 형식은 `validation/output_contract.md` 준수
 
 ---
 
 ## 에스컬레이션
 
-- 역할 간 판단 충돌 시 `ai_prompts/workflows/escalation_protocol.md` 참조
+- 역할 간 판단 충돌 시 `workflows/escalation_protocol.md` 참조
 - 최종 중재는 another_me가 수행
 
 ---

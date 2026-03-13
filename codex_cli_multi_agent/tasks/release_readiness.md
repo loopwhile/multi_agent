@@ -54,7 +54,7 @@
 ## 출력
 
 - **산출물**: Release Report + 배포 결과
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
+- **형식**: `validation/output_contract.md` 준수
 
 ## 수락 기준
 
@@ -65,5 +65,5 @@
 
 ## 참조
 
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
-- Verification Gate: `ai_prompts/workflows/verification_gate.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- Verification Gate: `workflows/verification_gate.md`

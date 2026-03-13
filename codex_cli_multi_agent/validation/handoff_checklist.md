@@ -71,5 +71,5 @@
 
 ## 참조
 
-- Output Contract: `ai_prompts/validation/output_contract.md`
-- Work Order Lifecycle: `ai_prompts/workflows/work_order_lifecycle.md`
+- Output Contract: `validation/output_contract.md`
+- Work Order Lifecycle: `workflows/work_order_lifecycle.md`

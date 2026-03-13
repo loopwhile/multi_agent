@@ -51,7 +51,7 @@
 ## 출력
 
 - **산출물**: Architecture Design Document + ADR + Work Order 업데이트
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
+- **형식**: `validation/output_contract.md` 준수
 
 ## 수락 기준
 
@@ -62,5 +62,5 @@
 
 ## 참조
 
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
-- Output Contract: `ai_prompts/validation/output_contract.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- Output Contract: `validation/output_contract.md`

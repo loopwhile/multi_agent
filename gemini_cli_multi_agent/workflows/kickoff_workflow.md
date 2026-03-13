@@ -42,8 +42,8 @@
 
 ## 참조
 
-- Task: `ai_prompts/tasks/project_analysis.md`
-- Task: `ai_prompts/tasks/scope_lock.md`
-- Review: `ai_prompts/reviews/scope_review.md`
-- Meeting: `ai_prompts/meetings/kickoff_meeting.md`
-- Decision Gate DG1: `ai_prompts/validation/decision_gate.md`
+- Task: `tasks/project_analysis.md`
+- Task: `tasks/scope_lock.md`
+- Review: `reviews/scope_review.md`
+- Meeting: `meetings/kickoff_meeting.md`
+- Decision Gate DG1: `validation/decision_gate.md`

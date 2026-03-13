@@ -43,7 +43,7 @@
 
 ## 출력
 
-모든 출력은 `ai_prompts/validation/output_contract.md`를 준수한다.
+모든 출력은 `validation/output_contract.md`를 준수한다.
 
 ### 주요 산출물
 
@@ -80,15 +80,15 @@
 
 - **DESIGNED 단계**: Work Order에 기술 설계를 첨부하여 CREATED → DESIGNED 전이
 - 설계 없이 구현을 시작하는 것은 금지 (패스트트랙 예외 제외)
-- 상세: `ai_prompts/workflows/work_order_lifecycle.md` 참조
+- 상세: `workflows/work_order_lifecycle.md` 참조
 
 ---
 
 ## 참조 문서
 
-- 출력 계약: `ai_prompts/validation/output_contract.md`
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
-- 에스컬레이션: `ai_prompts/workflows/escalation_protocol.md`
+- 출력 계약: `validation/output_contract.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- 에스컬레이션: `workflows/escalation_protocol.md`
 
 ---
 

@@ -57,4 +57,4 @@ builder_agent의 구현 결과가 **설계 의도와 일치하고, 코드 품질
 
 ## 출력
 
-- Verification Report (ai_prompts/workflows/verification_gate.md 형식)
+- Verification Report (workflows/verification_gate.md 형식)

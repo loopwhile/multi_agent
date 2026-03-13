@@ -3,7 +3,7 @@
 ## 이 문서의 목적
 
 에이전트 팀의 **구성, 역할 경계, 상호작용 규칙**을 설명한다.  
-개별 역할의 상세는 `ai_prompts/roles/`에 있으며, 이 문서는 전체 시스템의 설계 근거를 다룬다.
+개별 역할의 상세는 `roles/`에 있으며, 이 문서는 전체 시스템의 설계 근거를 다룬다.
 
 ---
 
@@ -71,9 +71,9 @@ growth_feedback ←──운영 데이터── operations ←──배포──
 
 ## 참조 파일
 
-- 역할 프롬프트: `ai_prompts/roles/*.md`
-- 에스컬레이션 규칙: `ai_prompts/workflows/escalation_protocol.md`
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
+- 역할 프롬프트: `roles/*.md`
+- 에스컬레이션 규칙: `workflows/escalation_protocol.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
 
 ---
 

@@ -46,7 +46,7 @@
 
 ## 출력
 
-모든 출력은 `ai_prompts/validation/output_contract.md`를 준수한다.
+모든 출력은 `validation/output_contract.md`를 준수한다.
 
 ### 주요 산출물
 
@@ -105,15 +105,15 @@
 
 - 직접 Work Order를 생성하지 않음
 - Improvement Proposal을 product_scope_agent에게 전달하면, scope agent가 Work Order로 변환할지 판단
-- 상세: `ai_prompts/workflows/work_order_lifecycle.md` 참조
+- 상세: `workflows/work_order_lifecycle.md` 참조
 
 ---
 
 ## 참조 문서
 
-- 출력 계약: `ai_prompts/validation/output_contract.md`
-- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
-- 에스컬레이션: `ai_prompts/workflows/escalation_protocol.md`
+- 출력 계약: `validation/output_contract.md`
+- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- 에스컬레이션: `workflows/escalation_protocol.md`
 
 ---
 

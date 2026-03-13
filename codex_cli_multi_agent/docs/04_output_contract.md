@@ -3,7 +3,7 @@
 ## 이 문서의 목적
 
 모든 에이전트가 결과물을 제출할 때 따르는 **출력 형식 계약**을 해설한다.  
-실제 계약 원문은 `ai_prompts/validation/output_contract.md`에 있으며,  
+실제 계약 원문은 `validation/output_contract.md`에 있으며,  
 이 문서는 계약의 설계 근거와 사용 가이드를 제공한다.
 
 ---
@@ -100,7 +100,7 @@
 
 ## 원문 참조
 
-실제 운영에 적용되는 계약 원문: `ai_prompts/validation/output_contract.md`
+실제 운영에 적용되는 계약 원문: `validation/output_contract.md`
 
 ---
 

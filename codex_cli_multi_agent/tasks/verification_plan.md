@@ -49,8 +49,8 @@
 ## 출력
 
 - **산출물**: Verification Plan + Verification Report
-- **형식**: `ai_prompts/validation/output_contract.md` 준수
-- **보고서 형식**: `ai_prompts/workflows/verification_gate.md`의 검증 보고서 형식
+- **형식**: `validation/output_contract.md` 준수
+- **보고서 형식**: `workflows/verification_gate.md`의 검증 보고서 형식
 
 ## 수락 기준
 
@@ -60,6 +60,6 @@
 
 ## 참조
 
-- Verification Gate: `ai_prompts/workflows/verification_gate.md`
-- Quality Checklist: `ai_prompts/validation/quality_checklist.md`
-- Output Contract: `ai_prompts/validation/output_contract.md`
+- Verification Gate: `workflows/verification_gate.md`
+- Quality Checklist: `validation/quality_checklist.md`
+- Output Contract: `validation/output_contract.md`

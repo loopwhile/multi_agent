@@ -49,7 +49,7 @@ Kickoff Workflow로 진입한다. 이것이 Agent OS의 **운영 순환 루프**
 
 ## 참조
 
-- Task: `ai_prompts/tasks/feedback_analysis.md`
-- Meeting: `ai_prompts/meetings/feedback_retrospective.md`
-- Growth Feedback Agent: `ai_prompts/roles/growth_feedback_agent.md`
-- Kickoff Workflow: `ai_prompts/workflows/kickoff_workflow.md`
+- Task: `tasks/feedback_analysis.md`
+- Meeting: `meetings/feedback_retrospective.md`
+- Growth Feedback Agent: `roles/growth_feedback_agent.md`
+- Kickoff Workflow: `workflows/kickoff_workflow.md`
