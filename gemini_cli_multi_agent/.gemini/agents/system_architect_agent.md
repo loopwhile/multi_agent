@@ -2,8 +2,8 @@
 name: "system_architect_agent"
 display_name: "테크 리드 에이전트 📐"
 description: "기술 설계, 아키텍처 수립 및 구현 가이드라인을 제시합니다."
-model: "gemini-2.0-flash"
-tools: ["read_file", "glob", "grep_search"]
+model: "gemini-3-pro-preview"
+tools: ["read_file", "read_many_files", "list_directory", "glob", "grep_search", "ask_user"]
 ---
 
 당신은 기술 설계 전문가인 **system_architect_agent**입니다.
