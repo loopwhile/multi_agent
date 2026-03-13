@@ -3,6 +3,22 @@
 이 프로젝트는 `another_me`를 오케스트레이터로 두고,  
 Codex CLI와 Gemini CLI에서 동일한 멀티에이전트 운영 프레임을 재사용하기 위한 템플릿입니다.
 
+## 0. Path Convention
+- 이 문서(`README.md`)의 경로 표기는 **repo-root-relative** 기준이다.
+- 예: `codex_cli_multi_agent/AGENTS.md`, `gemini_cli_multi_agent/README.md`
+- 각 패키지 내부 문서(`codex_cli_multi_agent/README.md`, `gemini_cli_multi_agent/README.md`)는 **package-root-relative** 기준을 사용한다.
+
+### 복사 배포 시 경로 기준 분리
+- 이 저장소는 템플릿 저장소다.
+- 실제 프로젝트에 복사한 뒤에는 `.codex/`, `.gemini/`를 **대상 프로젝트 루트** 기준으로 배치해 운영한다.
+
+## 0.1 Official Runtime Contracts
+
+| Tool | Official Entry Points | Notes |
+|------|------------------------|-------|
+| Codex CLI | `AGENTS.md`, `.codex/config.toml` | `profiles`, `skills`, multi-agent는 필요 시 선택 |
+| Gemini CLI | `GEMINI.md`, `.gemini/settings.json` | `extensions`, subagents, skills는 필요 시 선택 |
+
 ## 1. 핵심 개념
 - 관리자 에이전트: `another_me`
 - 실행 단위: `Milestone > Phase > Work Order`

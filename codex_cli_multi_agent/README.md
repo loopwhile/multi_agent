@@ -2,6 +2,15 @@
 
 이 폴더는 Codex CLI에서 복수의 전문 에이전트와 작업 단위 스킬을 안정적으로 실행하기 위한 독립 패키지다.
 
+## 0. Path Convention
+- 이 문서의 경로 표기는 **package-root-relative** 기준이다.
+- 예: `AGENTS.md`, `docs/session_handoff.md`, `.codex/config.toml`
+
+### 복사 배포 시 경로 기준 분리
+- 이 폴더를 실제 프로젝트로 복사하면, 아래 항목은 **대상 프로젝트 루트** 기준으로 둔다.
+- `AGENTS.md`(라우터), `.codex/`, `.gemini/`(공존 운영 시)
+- 반면 `codex_cli_multi_agent/*` 내부 참조는 계속 package-root-relative로 유지한다.
+
 ## 1. 이 패키지의 목표
 - 어떤 프로젝트 루트에 복사해도 바로 동작하도록 구성
 - 공용 코어 문서(roles/workflows/validation/tasks/docs)를 로컬 포함

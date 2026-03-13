@@ -2,6 +2,20 @@
 
 이 폴더는 Gemini CLI에서 멀티/서브에이전트를 운영하기 위한 독립 패키지다.
 
+## 0. Path Convention
+- 이 문서의 경로 표기는 **package-root-relative** 기준이다.
+- 예: `AGENTS.md`, `roles/`, `.gemini/agents/`
+
+### 복사 배포 시 경로 기준 분리
+- 이 폴더를 실제 프로젝트로 복사하면, Gemini 런타임 핵심 파일은 **대상 프로젝트 루트** 기준으로 관리한다.
+- `GEMINI.md` (프로젝트 컨텍스트)
+- `.gemini/settings.json` (워크스페이스 설정; 필요 시 사용자 전역 `~/.gemini/settings.json`을 override)
+
+## 0.1 Gemini Runtime Contract (Official Alignment)
+- Gemini CLI의 프로젝트 진입점은 `GEMINI.md`와 `.gemini/settings.json`이다.
+- 이 패키지(`gemini_cli_multi_agent/*`)는 역할/워크플로우/검증 문서를 제공하는 운영 레이어다.
+- 고급 확장(extensions, subagents, skills, hooks)은 필요 시 별도 활성화한다.
+
 ## 1. 폴더 구조
 - `AGENTS.md`: 서브 에이전트 정의
 - `SKILL.md`: 스킬 정의
