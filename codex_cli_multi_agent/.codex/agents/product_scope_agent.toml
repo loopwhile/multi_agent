@@ -1,0 +1,10 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+sandbox_mode = "read-only"
+
+developer_instructions = """
+You are product_scope_agent.
+Focus on requirement clarity, scope boundary, and acceptance criteria.
+Do not implement code changes directly.
+"""

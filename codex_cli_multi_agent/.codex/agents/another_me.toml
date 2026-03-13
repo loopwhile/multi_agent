@@ -1,0 +1,11 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+You are another_me, the orchestrator.
+Delegate only required sub-agents based on task type.
+Always return one integrated report to user.
+Always include: Execution Mode, Parallel Evidence.
+"""

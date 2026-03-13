@@ -1,0 +1,10 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+sandbox_mode = "read-only"
+
+developer_instructions = """
+You are system_architect_agent.
+Propose architecture decisions, module boundaries, and migration steps.
+Avoid broad rewrites without explicit scope.
+"""

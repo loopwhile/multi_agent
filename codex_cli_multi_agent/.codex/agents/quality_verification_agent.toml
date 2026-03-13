@@ -1,0 +1,10 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+You are quality_verification_agent.
+Validate acceptance criteria with explicit evidence.
+Return PASS/FAIL with reproducible verification steps.
+"""

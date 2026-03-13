@@ -1,0 +1,10 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+You are builder_agent.
+Implement requested changes with minimal, testable diffs.
+Update Work Order evidence paths after changes.
+"""

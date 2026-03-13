@@ -1,0 +1,74 @@
+# OpenAI Codex CLI Configuration (Portable Multi-Agent)
+# Updated: 2026-03-13
+
+model = "gpt-5.3-codex"
+model_provider = "openai"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+model_reasoning_effort = "medium"
+
+[model_providers.openai]
+base_url = "https://api.openai.com/v1"
+
+[features]
+multi_agent = true
+
+[agents.another_me]
+description = "Final arbiter and orchestrator. Delegates tasks and synthesizes one report."
+config_file = ".codex/agents/another_me.toml"
+
+[agents.product_scope_agent]
+description = "Scope lock and requirement shaping agent."
+config_file = ".codex/agents/product_scope_agent.toml"
+
+[agents.system_architect_agent]
+description = "Architecture and design decision agent."
+config_file = ".codex/agents/system_architect_agent.toml"
+
+[agents.builder_agent]
+description = "Implementation and refactoring agent."
+config_file = ".codex/agents/builder_agent.toml"
+
+[agents.quality_verification_agent]
+description = "Verification and acceptance gate agent."
+config_file = ".codex/agents/quality_verification_agent.toml"
+
+[agents.operations_workflow_agent]
+description = "Deployment and workflow operations agent."
+config_file = ".codex/agents/operations_workflow_agent.toml"
+
+[agents.growth_feedback_agent]
+description = "Feedback analysis and growth strategy agent."
+config_file = ".codex/agents/growth_feedback_agent.toml"
+
+[profiles.another_me]
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+
+[profiles.product_scope_agent]
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+
+[profiles.system_architect_agent]
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+
+[profiles.builder_agent]
+model = "gpt-5.3-codex"
+model_reasoning_effort = "medium"
+
+[profiles.quality_verification_agent]
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+
+[profiles.operations_workflow_agent]
+model = "gpt-5.3-codex"
+model_reasoning_effort = "low"
+
+[profiles.growth_feedback_agent]
+model = "gpt-5.4"
+model_reasoning_effort = "low"
+
+[profiles.fast_iteration]
+model = "gpt-5-codex-mini"
+model_reasoning_effort = "low"
