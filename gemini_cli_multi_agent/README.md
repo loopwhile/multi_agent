@@ -19,6 +19,8 @@
 ## 1. 폴더 구조
 - `AGENTS.md`: 서브 에이전트 정의
 - `SKILL.md`: 스킬 정의
+- `GEMINI.md`: Gemini CLI 프로젝트 컨텍스트 진입 템플릿
+- `.gemini/settings.json`: Gemini CLI 워크스페이스 설정 템플릿
 - `.gemini/agents/`: Gemini 전용 에이전트 정의
 - `roles/`, `workflows/`, `tasks/`, `validation/`, `docs/`: 공용 코어 문서
 - `adapters/`: 도구별 매핑 문서

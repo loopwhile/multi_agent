@@ -2,6 +2,12 @@
 
 이 파일은 Gemini CLI의 서브 에이전트들을 정의합니다. 각 에이전트는 프로젝트의 `roles/` 폴더 내 정의된 페르소나를 기반으로 동작하며, `docs/03_rules.md`의 시스템 규칙을 준수합니다.
 
+## Runtime Prerequisites (Gemini CLI)
+- 프로젝트 컨텍스트 진입점: `GEMINI.md`
+- 워크스페이스 설정: `.gemini/settings.json`
+- 전역 설정: `~/.gemini/settings.json`
+- 동일 키 충돌 시 워크스페이스 설정이 우선합니다.
+
 ## Sub-Agents
 
 ### another_me (The Architect & Final Arbiter)

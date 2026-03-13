@@ -47,7 +47,7 @@
 
 ### 주요 산출물
 
-1. **Verification Report** — 검증 결과 보고서 (형식: `verification_gate.md` 참조)
+1. **Verification Report** — 검증 결과 보고서 (형식: `workflows/verification_gate.md` 참조)
 2. **버그 리포트** — 발견된 결함 상세
 3. **테스트 결과** — 테스트 실행 로그, 스크린샷
 
