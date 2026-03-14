@@ -1,0 +1,11 @@
+{
+  "model": {
+    "name": "gemini-3-flash-preview"
+  },
+  "experimental": {
+    "enableAgents": true
+  },
+  "general": {
+    "contextFileName": "GEMINI.md"
+  }
+}

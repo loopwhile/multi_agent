@@ -3,8 +3,8 @@
 ## 이 문서의 목적
 
 **Work Order 운영 체계**의 설계 근거, 사용 가이드, 작성 원칙을 설명한다.  
-Work Order 템플릿 원문은 `tasks/_template.md`에,  
-생명주기 규칙은 `workflows/work_order_lifecycle.md`에 있다.
+Work Order 템플릿 원문은 `ai_prompts/tasks/_template.md`에,  
+생명주기 규칙은 `ai_prompts/workflows/work_order_lifecycle.md`에 있다.
 
 ---
 
@@ -27,7 +27,7 @@ CREATED → DESIGNED → IN-PROGRESS → PENDING-VERIFY → VERIFIED → DEPLOYE
                                                    ↘ FAILED → IN-PROGRESS (재작업)
 ```
 
-상세 전이 규칙: `workflows/work_order_lifecycle.md`
+상세 전이 규칙: `ai_prompts/workflows/work_order_lifecycle.md`
 
 ---
 
@@ -81,9 +81,9 @@ WO-YYYYMMDD-{순번}-{짧은설명}.md
 
 ## 참조 파일
 
-- 템플릿: `tasks/_template.md`
-- 생명주기: `workflows/work_order_lifecycle.md`
-- 검증 게이트: `workflows/verification_gate.md`
+- 템플릿: `ai_prompts/tasks/_template.md`
+- 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
+- 검증 게이트: `ai_prompts/workflows/verification_gate.md`
 
 ---
 

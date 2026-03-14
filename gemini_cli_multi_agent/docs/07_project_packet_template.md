@@ -40,11 +40,11 @@ Agent OS의 역할 프롬프트는 **프로젝트 독립적**이다.
 
 | 금지 항목 | 올바른 위치 |
 |-----------|-------------|
-| 역할 정의 | `roles/` |
-| 워크플로우 규칙 | `workflows/` |
-| 검증 기준 | `validation/` |
-| 출력 계약 | `validation/output_contract.md` |
-| 도구별 설정 | `adapters/` |
+| 역할 정의 | `ai_prompts/roles/` |
+| 워크플로우 규칙 | `ai_prompts/workflows/` |
+| 검증 기준 | `ai_prompts/validation/` |
+| 출력 계약 | `ai_prompts/validation/output_contract.md` |
+| 도구별 설정 | `ai_prompts/adapters/` |
 
 ---
 

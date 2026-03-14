@@ -29,7 +29,7 @@ Work Order가 VERIFIED 또는 DEPLOYED 상태로 전이되려면 다음을 **모
 
 ### 3. Quality Checklist 통과
 
-- `validation/quality_checklist.md`의 해당 유형 체크리스트를 기준으로 판정
+- `ai_prompts/validation/quality_checklist.md`의 해당 유형 체크리스트를 기준으로 판정
 - 판정 결과: PASS, CONDITIONAL PASS, FAIL
 
 ### 4. 수락 기준 충족
@@ -98,9 +98,9 @@ Work Order가 VERIFIED 또는 DEPLOYED 상태로 전이되려면 다음을 **모
 
 ## 참조
 
-- 품질 기준: `validation/quality_checklist.md`
-- 출력 형식: `validation/output_contract.md`
-- 상태 전이: `workflows/work_order_lifecycle.md`
+- 품질 기준: `ai_prompts/validation/quality_checklist.md`
+- 출력 형식: `ai_prompts/validation/output_contract.md`
+- 상태 전이: `ai_prompts/workflows/work_order_lifecycle.md`
 
 ---
 

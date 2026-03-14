@@ -48,6 +48,6 @@ Scope Review (DG1)
 
 ## 참조
 
-- Reviews: `reviews/*.md`
-- Decision Gates: `validation/decision_gate.md`
-- Handoff Checklist: `validation/handoff_checklist.md`
+- Reviews: `ai_prompts/reviews/*.md`
+- Decision Gates: `ai_prompts/validation/decision_gate.md`
+- Handoff Checklist: `ai_prompts/validation/handoff_checklist.md`

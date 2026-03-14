@@ -6,7 +6,7 @@
 ## 2. 읽기 순서 (초기화 단계)
 터미널에서 명령을 내리기 전 프롬프트 컨텍스트에 포함시켜야 할 핵심 파일. 단, CLI는 컨텍스트 토큰 관리가 중요하므로 최소한만 읽는다.
 1. `docs/03_rules.md`
-2. `roles/{현재역할}.md`
+2. `ai_prompts/roles/{현재역할}.md`
 3. `docs/project_packets/{프로젝트명}.md`
 
 ## 3. 권장 실행 흐름
@@ -16,11 +16,11 @@
 
 ## 4. Work Order 생성 & 진행 방식
 - 터미널 텍스트 처리 도구(cat, echo 등)와 연계하여 새 WO 파일을 생성한다.
-- 예: "새 WO 템플릿 기반으로 뼈대 만들어" 지시를 받으면 `tasks/_template.md`의 형식을 출력하여 쉘 스트림 기반으로 파일 저장이 가능하게 리턴하라.
+- 예: "새 WO 템플릿 기반으로 뼈대 만들어" 지시를 받으면 `ai_prompts/tasks/_template.md`의 형식을 출력하여 쉘 스트림 기반으로 파일 저장이 가능하게 리턴하라.
 
 ## 5. 필수 준수 경로
-- **출력 계약**: `validation/output_contract.md` (CLI 특성상 서식이 깨지지 않도록 Code block 내부에 작성 권장)
-- **품질 체크리스트**: `validation/quality_checklist.md`
+- **출력 계약**: `ai_prompts/validation/output_contract.md` (CLI 특성상 서식이 깨지지 않도록 Code block 내부에 작성 권장)
+- **품질 체크리스트**: `ai_prompts/validation/quality_checklist.md`
 
 ## 6. 제한사항 / 워크어라운드
 - **대화 내역 단절**: 세션 기반 상태유지가 어려울 수 있으므로, 이전 과정의 Context가 필요하다면 "이전 Work Order 파일(예: `.md` 파일)을 cat하여 컨텍스트로 제공하라"고 사용자나 랩퍼 스크립트에 지시해야 한다.

@@ -91,8 +91,8 @@ another_me는 중재 시 다음 순서로 판단한다:
 
 ## 참조 문서
 
-- another_me: `roles/another_me.md`
-- Work Order 생명주기: `workflows/work_order_lifecycle.md`
+- another_me: `ai_prompts/roles/another_me.md`
+- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
 
 ---
 

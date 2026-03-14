@@ -3,8 +3,8 @@
 ## 이 문서의 목적
 
 **Verify 없는 완료 선언 금지** 원칙의 설계 근거, 정책 상세, 운영 가이드를 설명한다.  
-검증 게이트 원문은 `workflows/verification_gate.md`에,  
-품질 체크리스트는 `validation/quality_checklist.md`에 있다.
+검증 게이트 원문은 `ai_prompts/workflows/verification_gate.md`에,  
+품질 체크리스트는 `ai_prompts/validation/quality_checklist.md`에 있다.
 
 ---
 
@@ -81,15 +81,15 @@ FAIL 판정 시 다음을 포함한다:
 - Smoke test 통과
 - 롤백 가능 여부 확인
 
-상세 체크리스트: `validation/quality_checklist.md`
+상세 체크리스트: `ai_prompts/validation/quality_checklist.md`
 
 ---
 
 ## 참조 파일
 
-- 검증 게이트: `workflows/verification_gate.md`
-- 품질 체크리스트: `validation/quality_checklist.md`
-- 출력 계약: `validation/output_contract.md`
+- 검증 게이트: `ai_prompts/workflows/verification_gate.md`
+- 품질 체크리스트: `ai_prompts/validation/quality_checklist.md`
+- 출력 계약: `ai_prompts/validation/output_contract.md`
 
 ---
 

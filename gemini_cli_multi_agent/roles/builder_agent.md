@@ -43,7 +43,7 @@
 
 ## 출력
 
-모든 출력은 `validation/output_contract.md`를 준수한다.
+모든 출력은 `ai_prompts/validation/output_contract.md`를 준수한다.
 
 ### 주요 산출물
 
@@ -80,16 +80,16 @@
 
 - **IN-PROGRESS 단계**: DESIGNED → IN-PROGRESS 전이 후 구현 시작
 - **PENDING-VERIFY 전이**: 구현 완료 + Evidence 첨부 후 quality_verification_agent에게 전달
-- 상세: `workflows/work_order_lifecycle.md` 참조
+- 상세: `ai_prompts/workflows/work_order_lifecycle.md` 참조
 
 ---
 
 ## 참조 문서
 
-- 출력 계약: `validation/output_contract.md`
-- Work Order 생명주기: `workflows/work_order_lifecycle.md`
-- 검증 게이트: `workflows/verification_gate.md`
-- 에스컬레이션: `workflows/escalation_protocol.md`
+- 출력 계약: `ai_prompts/validation/output_contract.md`
+- Work Order 생명주기: `ai_prompts/workflows/work_order_lifecycle.md`
+- 검증 게이트: `ai_prompts/workflows/verification_gate.md`
+- 에스컬레이션: `ai_prompts/workflows/escalation_protocol.md`
 
 ---
 

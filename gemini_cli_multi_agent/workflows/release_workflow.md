@@ -47,7 +47,7 @@ NO-GO인 경우:
 
 ## 참조
 
-- Task: `tasks/release_readiness.md`
-- Review: `reviews/release_review.md`
-- Meeting: `meetings/release_go_no_go.md`
-- Decision Gate DG4: `validation/decision_gate.md`
+- Task: `ai_prompts/tasks/release_readiness.md`
+- Review: `ai_prompts/reviews/release_review.md`
+- Meeting: `ai_prompts/meetings/release_go_no_go.md`
+- Decision Gate DG4: `ai_prompts/validation/decision_gate.md`

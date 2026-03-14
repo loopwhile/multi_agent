@@ -10,7 +10,6 @@
 | 생성자 | {역할명 또는 사용자} |
 | 담당 역할 | {실행 담당 역할} |
 | 프로젝트 | {프로젝트명 — project packet 참조} |
-| Session Handoff | `docs/session_handoff.md` |
 | 패스트트랙 | Yes / No |
 | 우선순위 | Critical / High / Medium / Low |
 
@@ -89,19 +88,6 @@
 | 시점 | 상태 변경 | 역할 | 비고 |
 |------|-----------|------|------|
 | {날짜} | → CREATED | {역할} | {초기 생성} |
-
----
-
-## Session Sync
-
-### Handoff 연결 상태
-- [ ] `docs/session_handoff.md`의 `Current work order`가 이 WO 파일을 가리킨다.
-- [ ] 종료 직전 `Done / In progress / Next 3 actions / Commands to resume`를 동기화했다.
-
-### 마지막 동기화
-- 시각: YYYY-MM-DD HH:mm (KST)
-- 담당: {another_me 또는 실행 담당 역할}
-- 요약: {동기화 요약}
 
 ---
 
