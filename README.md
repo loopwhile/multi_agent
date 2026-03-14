@@ -3,6 +3,40 @@
 이 프로젝트는 `another_me`를 오케스트레이터로 두고,
 Codex CLI와 Gemini CLI에서 동일한 멀티에이전트 운영 프레임을 재사용하기 위한 템플릿입니다.
 
+## 프로젝트에 적용하기
+
+### 복사 대상 (필수)
+
+아래 파일/폴더를 **대상 프로젝트 루트**에 복사합니다:
+
+```
+AGENTS.md                  ← Codex CLI 엔트리 포인트
+GEMINI.md                  ← Gemini CLI 엔트리 포인트
+.codex/                    ← Codex CLI 설정
+.gemini/                   ← Gemini CLI 설정
+.geminiignore              ← Gemini CLI 격리 설정
+codex_cli_multi_agent/     ← Codex 에이전트 코어 문서
+gemini_cli_multi_agent/    ← Gemini 에이전트 코어 문서
+```
+
+> **Codex CLI만 사용**: `AGENTS.md`, `.codex/`, `codex_cli_multi_agent/` 만 복사
+> **Gemini CLI만 사용**: `GEMINI.md`, `.gemini/`, `.geminiignore`, `gemini_cli_multi_agent/` 만 복사
+
+### 복사 제외
+
+| 파일 | 이유 |
+|------|------|
+| `README.md` | 이 템플릿 저장소의 가이드 문서 (대상 프로젝트의 README와 충돌) |
+| `LICENSE` | 대상 프로젝트의 라이선스를 따름 |
+| `.git/` | 이 저장소의 Git 히스토리 |
+
+### 복사 후 해야 할 것
+
+1. `.codex/config.toml` — 사용할 모델명, API 설정 확인
+2. `.gemini/settings.json` — MCP 서버 등 환경 설정 확인
+3. Codex CLI 사용 시 — **부트스트랩 프롬프트**로 프로젝트 패킷 초기화 (`codex_cli_multi_agent/README.md` 참고)
+4. Gemini CLI 사용 시 — `gemini_cli_multi_agent/HANDOVER.md`에 프로젝트 정보 기입
+
 ## 공식 런타임 규약 (Official Runtime Contracts)
 
 | Tool | Entry Point | Config | 비고 |
